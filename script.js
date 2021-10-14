@@ -1,7 +1,7 @@
 const inputs = [...document.querySelectorAll('input')];
 
 function handleClick(e) {
-  if (!e.shiftKey) return;
+  if (!e.shiftKey) return; // para checar se a tecla shift está clicada. Se não estiver, a função termina 
 
   let indexClick = inputs.indexOf(e.target);
 
